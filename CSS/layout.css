@@ -1,0 +1,145 @@
+/*******************************************
+		Corpo Da Página
+******************************************/
+body{
+	background:#fff url(../IMG/bg.gif) top left repeat-x;
+	color:#45602e;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+/*******************************************
+			Tabela Logo
+******************************************/
+.logo
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	color:#333333;
+}
+
+
+/*******************************************
+			Tabela Conteúdo
+******************************************/
+.conteudo
+{
+	background-image: url(../IMG/txtbg.gif);
+	background-repeat: no-repeat;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #64742C;
+	text-align: justify;
+	
+}
+
+.texto
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#64742C;
+	
+}
+
+.img
+{
+	border-top:1px double #4EA40A;
+	border-right:1px double #4EA40A;
+	border-left:1px double #4EA40A;
+	border-bottom:1px double #4EA40A;
+	
+}
+
+
+.icone{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#c1c958;
+	border-bottom:1px dashed #CCCCCC;
+	
+}
+
+
+/*******************************************
+			Tabela Rodapé
+******************************************/
+td#rodape
+{
+	background-image:url(../IMG/rdp.jpg);
+	background-repeat:repeat-x;
+	background-color:#CDD766;
+	
+}
+
+.rodape
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#000000;
+	
+}
+
+.dir
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+
+/*******************************************
+					Link
+******************************************/
+a, a:hover{
+	color:#89912F;
+	text-decoration:none
+} 
+a:visited{
+	color:#45602e;
+	text-decoration:none
+} 
+
+
+/*******************************************
+					Menu
+******************************************/
+#menu a{
+	font-size:11px;
+	font-weight:bold;
+	float:right;
+	color:#FFFFFF;
+	margin:0;
+	text-decoration:none;
+	padding:9px 15px;
+	display:block;
+} 
+
+#menu a:hover{ 
+	font-size:11px;
+	font-weight:bold;
+	background:url(../IMG/seta.gif) bottom center no-repeat;
+	color:#c1c958;
+	margin:0;
+	text-decoration:none;
+}
+
+
+/*******************************************
+					Menu
+******************************************/
+.form {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#64742C;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	border-bottom: 1px dashed #CCCCCC ;
+	border-left: 1px dashed #CCCCCC ;
+	border-right:1px dashed #CCCCCC ;
+	border-top:1px dashed #CCCCCC ;
+}
